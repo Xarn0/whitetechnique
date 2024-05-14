@@ -1,6 +1,6 @@
 <template>
 	<v-card class="rounded">
-		<v-img src="/images/cardShare1.png"> </v-img>
+		<v-img src="images/cardShare1.png"> </v-img>
 		<v-card-title class="pb-0">
 			<v-btn color="black" class="white--text font-weight-light"> 🔥 До 10 февраля </v-btn>
 		</v-card-title>

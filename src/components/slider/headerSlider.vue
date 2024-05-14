@@ -12,13 +12,13 @@
 					:simulateTouch="false"
 				>
 					<swiper-slide v-for="n in 3" :key="n" class="test" :class="{ test_2: true }">
-						<v-img src="/images/Img.jpg" class="pa-0 ma-0" cover>
+						<v-img src="images/Img.jpg" class="pa-0 ma-0" cover>
 							<v-row class="d-flex ga-16">
 								<v-col cols="6" sm="7">
 									<div class="">
 										<img
 											style="max-width: 600px; min-width: 350px"
-											src="/images/hand.png"
+											src="images/hand.png"
 											class="mt-2 hand"
 										/>
 										<div style="position: relative; top: -10px; left: 10px">{{ n }}/ 3</div>

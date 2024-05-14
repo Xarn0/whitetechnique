@@ -64,7 +64,7 @@
 			</v-row>
 			<v-row class="mt-0">
 				<v-col cols="8" class="mx-auto mt-0 pa-0">
-					<v-img src="/images/notbook.png" contain> </v-img>
+					<v-img src="images/notbook.png" contain> </v-img>
 				</v-col>
 			</v-row>
 			<v-row class="">
