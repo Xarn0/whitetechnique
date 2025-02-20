@@ -9,7 +9,8 @@
 								<div class="footer__rect"></div>
 							</v-list-item-icon>
 							<v-list-item-content>
-								<v-list-item-title class="mb-0 text-uppercase black--text text-h4 font-weight-black"
+								<v-list-item-title
+									class="mb-0 text-uppercase black--text text-h4 font-weight-black"
 									>Белая техника</v-list-item-title
 								>
 								<v-list-item-subtitle class="black--text text-subtitle-2"
@@ -24,11 +25,13 @@
 									style="color: #6a6a6a"
 									class="pt-2 text-subtitle-2 text-justify pr-10 mr-4"
 								>
-									Интернет-магазин Белая Техника — российская розничная торговая сеть по продаже
-									современной электроники
+									Интернет-магазин Белая Техника — российская розничная торговая
+									сеть по продаже современной электроники
 								</v-list-item-content>
 
-								<span class="mt-5 text-subtitle-2"> 2012-2023 © Белая Техника </span>
+								<span class="mt-5 text-subtitle-2">
+									2012-2025 © Белая Техника
+								</span>
 							</div>
 						</v-list-item>
 					</v-list>
@@ -36,7 +39,9 @@
 				<v-col cols="12" sm="5">
 					<v-row>
 						<v-col cols="12" sm="6"
-							><v-subheader class="text-h6 pa-0 pl-1 font-weight-bold mb-4 text-subtitle-2">
+							><v-subheader
+								class="text-h6 pa-0 pl-1 font-weight-bold mb-4 text-subtitle-2"
+							>
 								Каталог
 							</v-subheader>
 							<ul class="footer__list pl-0 text-subtitle-2">
@@ -52,7 +57,9 @@
 							</ul></v-col
 						>
 						<v-col cols="12" sm="6"
-							><v-subheader class="text-h6 pa-0 pl-1 mb-4 font-weight-bold text-subtitle-2">
+							><v-subheader
+								class="text-h6 pa-0 pl-1 mb-4 font-weight-bold text-subtitle-2"
+							>
 								Информация
 							</v-subheader>
 							<ul class="footer__list pl-0 text-subtitle-2">
@@ -69,14 +76,20 @@
 					</v-row>
 				</v-col>
 				<v-col cols="12" sm="3">
-					<v-subheader class="text-h6 pa-0 pl-1 font-weight-bold mb-4 text-subtitle-2">
+					<v-subheader
+						class="text-h6 pa-0 pl-1 font-weight-bold mb-4 text-subtitle-2"
+					>
 						Контакты
 					</v-subheader>
 					<v-list color="transparent flex-wrap  ">
 						<v-list-item>
 							<v-list-item-content>
-								<v-list-item-title class="text-h6">+7 812 6*4-*0-*5</v-list-item-title>
-								<v-list-item-subtitle>Ежедневно 10:00-20:00</v-list-item-subtitle>
+								<v-list-item-title class="text-h6"
+									>+7 812 000-00-00</v-list-item-title
+								>
+								<v-list-item-subtitle
+									>Ежедневно 10:00-20:00</v-list-item-subtitle
+								>
 							</v-list-item-content>
 						</v-list-item>
 						<v-list-item>
