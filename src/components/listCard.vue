@@ -8,12 +8,17 @@
 				<v-list-item-content>
 					<v-list-item-title class="d-flex" style="gap: 8px">
 						<div class="overflow-x-auto" style="max-width: 100%">
-							<v-chip color="#FAFAFA" v-for="(el, index) in listCips" :key="index">{{ el }}</v-chip>
+							<v-chip
+								color="#FAFAFA"
+								v-for="(el, index) in listCips"
+								:key="index"
+								>{{ el }}</v-chip
+							>
 						</div>
 						<v-menu offset-y>
 							<template v-slot:activator="{ on, attrs }">
 								<div v-bind="attrs" v-on="on">
-									<v-btn color="transparent">
+									<v-btn text color="#000">
 										Dropdown
 
 										<svg
@@ -110,17 +115,17 @@ export default {
 	components: {
 		cardBest,
 		Swiper,
-		SwiperSlide,
+		SwiperSlide
 	},
 	data() {
 		return {
 			myNavigator: {
 				nextEl: `.${this.name}-pagination-next`,
-				prevEl: `.${this.name}-pagination-prev`,
+				prevEl: `.${this.name}-pagination-prev`
 			},
 			myPaginator: {
 				el: `.${this.name}-pagination`,
-				clickable: "true",
+				clickable: "true"
 			},
 			listCips: [
 				"Huawei",
@@ -129,26 +134,26 @@ export default {
 				"Apple MacBook Pro",
 				"MSI",
 				"Tecno",
-				"Apple",
+				"Apple"
 			],
 			point: {
 				320: {
 					slidesPerView: 1,
-					spaceBetween: 20,
+					spaceBetween: 20
 				},
 				// when window width is >= 480px
 				420: {
 					slidesPerView: 2,
-					spaceBetween: 30,
+					spaceBetween: 30
 				},
 				// when window width is >= 640px
 				640: {
 					slidesPerView: 4,
-					spaceBetween: 40,
-				},
-			},
+					spaceBetween: 40
+				}
+			}
 		};
-	},
+	}
 };
 </script>
 

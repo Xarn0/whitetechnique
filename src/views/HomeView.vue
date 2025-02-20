@@ -8,7 +8,9 @@
 					</v-col>
 					<v-col cols="12" lg="3">
 						<v-card>
-							<v-subheader class="text-h5 font-weight-medium mb-4 pt-5"> Товар Дня </v-subheader>
+							<v-subheader class="text-h5 font-weight-medium mb-4 pt-5">
+								Товар Дня
+							</v-subheader>
 							<v-divider class="d-lg-none mb-3"></v-divider>
 							<cardItem
 						/></v-card>
@@ -160,7 +162,12 @@
 											d="M20.3439 5.03362C23.3243 4.35338 26.4196 4.35338 29.4 5.03362C32.3804 5.71387 35.1692 7.05689 37.5592 8.9629C39.9493 10.8689 41.8792 13.2889 43.2056 16.0432C44.532 18.7975 45.2207 21.8152 45.2207 24.8722C45.2207 27.9292 44.532 30.9469 43.2056 33.7012C41.8792 36.4555 39.9493 38.8755 37.5592 40.7815C35.1691 42.6875 32.3804 44.0305 29.4 44.7108C26.4196 45.391 23.3243 45.391 20.3439 44.7108C17.3636 44.0305 14.5748 42.6875 12.1847 40.7815C9.79465 38.8755 7.86474 36.4555 6.53836 33.7012C5.21197 30.9469 4.52319 27.9292 4.52319 24.8722C4.52319 21.8152 5.21197 18.7975 6.53836 16.0432C7.86474 13.2889 9.79465 10.8689 12.1847 8.9629C14.5748 7.05689 17.3636 5.71387 20.3439 5.03362Z"
 											fill="#010101"
 										/>
-										<rect width="22" height="22" transform="matrix(-1 0 0 1 36 14)" fill="white" />
+										<rect
+											width="22"
+											height="22"
+											transform="matrix(-1 0 0 1 36 14)"
+											fill="white"
+										/>
 									</g>
 									<defs>
 										<clipPath id="clip0_2283_7300">
@@ -529,7 +536,9 @@
 				</v-col>
 			</v-row>
 
-			<v-row class="my-4"><cardList :title="'Рекомендуем'" :name="'recommend'" /> </v-row>
+			<v-row class="my-4"
+				><cardList :title="'Рекомендуем'" :name="'recommend'" />
+			</v-row>
 			<v-row class="my-4"> <shareSlider :name="'shareSlider'" /> </v-row>
 			<v-row class="my-4">
 				<div class="wirelessFans">
@@ -537,16 +546,23 @@
 						<v-list class="transparent d-flex align-center">
 							<v-list-item>
 								<v-list-item-content>
-									<v-list-item-title class="text-h4 mb-2 text-center text-wrap font-weight-bold"
+									<v-list-item-title
+										class="text-h4 mb-2 text-center text-wrap font-weight-bold"
 										>Беспроводные вентиляторы</v-list-item-title
 									>
 									<v-list-item-subtitle
 										class="d-flex justify-center mb-2 text-h5 black--text font-weight-regular align-center"
 									>
-										<img src="@/assets/images/xiaomi.png" class="mr-1 mb-2" width="40" alt="" />
+										<img
+											src="@/assets/images/xiaomi.png"
+											class="mr-1 mb-2"
+											width="40"
+											alt=""
+										/>
 										Xiaomi</v-list-item-subtitle
 									>
-									<v-list-item-title class="text-center black--text mb-2 text-h5 font-weight-bold"
+									<v-list-item-title
+										class="text-center black--text mb-2 text-h5 font-weight-bold"
 										>в рассрочку 0 - 0 - 3</v-list-item-title
 									>
 									<v-list-item-subtitle
@@ -580,7 +596,8 @@
 					<v-list>
 						<v-list-item>
 							<v-list-item-content>
-								<v-list-item-title class="text-h4 font-weight-black text-center mb-2"
+								<v-list-item-title
+									class="text-h4 font-weight-black text-center mb-2"
 									>Бонусные баллы</v-list-item-title
 								>
 								<v-list-item-subtitle
@@ -623,9 +640,24 @@
 													stroke="black"
 													stroke-width="0.86623"
 												/>
-												<circle cx="15.8574" cy="7.19528" r="0.942857" fill="#4633B9" />
-												<circle cx="15.8574" cy="7.19528" r="0.942857" fill="#1767F9" />
-												<circle cx="15.8574" cy="7.19528" r="0.942857" fill="#4BB1BC" />
+												<circle
+													cx="15.8574"
+													cy="7.19528"
+													r="0.942857"
+													fill="#4633B9"
+												/>
+												<circle
+													cx="15.8574"
+													cy="7.19528"
+													r="0.942857"
+													fill="#1767F9"
+												/>
+												<circle
+													cx="15.8574"
+													cy="7.19528"
+													r="0.942857"
+													fill="#4BB1BC"
+												/>
 												<circle
 													cx="15.8574"
 													cy="7.19528"
@@ -636,7 +668,8 @@
 											</svg>
 											<div class="--ellipseBB ml-2 pa-0">+bb</div>
 										</div>
-										<v-list-item-title class="font-weight-medium text-subtitle-1 mb-1"
+										<v-list-item-title
+											class="font-weight-medium text-subtitle-1 mb-1"
 											>Никаких карт и анкет</v-list-item-title
 										>
 										<v-list-item-subtitle class="text-wrap text-subtitle-2"
@@ -649,7 +682,8 @@
 								><v-list-item style="width: 280px">
 									<v-list-item-content class="pa-0">
 										<div class="--sumElement"></div>
-										<v-list-item-title class="font-weight-medium text-subtitle-1"
+										<v-list-item-title
+											class="font-weight-medium text-subtitle-1"
 											>Никаких карт и анкет</v-list-item-title
 										>
 										<v-list-item-subtitle class="text-wrap text-subtitle-2"
@@ -689,11 +723,13 @@
 
 											<div class="--ellipseBB ml-2 pa-0">+bb</div>
 										</div>
-										<v-list-item-title class="font-weight-medium text-subtitle-1 mb-1"
+										<v-list-item-title
+											class="font-weight-medium text-subtitle-1 mb-1"
 											>Реферальная система</v-list-item-title
 										>
 										<v-list-item-subtitle class="text-wrap text-subtitle-2"
-											>Получите бонусы за каждого приглашенного друга</v-list-item-subtitle
+											>Получите бонусы за каждого приглашенного
+											друга</v-list-item-subtitle
 										>
 									</v-list-item-content></v-list-item
 								></v-col
@@ -714,7 +750,8 @@
 												10%
 											</span>
 										</div>
-										<v-list-item-title class="font-weight-medium text-subtitle-1"
+										<v-list-item-title
+											class="font-weight-medium text-subtitle-1"
 											>Никаких карт и анкет</v-list-item-title
 										>
 										<v-list-item-subtitle class="text-wrap text-subtitle-2"
@@ -748,7 +785,7 @@ export default {
 					img: "img1.png",
 					link: "",
 					subtitle2: false,
-					background: "#ECECEC",
+					background: "#ECECEC"
 				},
 
 				{
@@ -757,7 +794,7 @@ export default {
 					img: "img2.png",
 					link: "",
 					subtitle2: "до 10% с каждой покупки",
-					background: "#F5EBE2",
+					background: "#F5EBE2"
 				},
 				{
 					subtitle: "Smart часы",
@@ -765,7 +802,7 @@ export default {
 					img: "img3.png",
 					link: "",
 					subtitle2: false,
-					background: "#FFB594",
+					background: "#FFB594"
 				},
 				{
 					subtitle: "Новинки ",
@@ -773,7 +810,7 @@ export default {
 					img: "img4.png",
 					link: "",
 					subtitle2: "2020",
-					background: "#FFFFFF",
+					background: "#FFFFFF"
 				},
 				{
 					subtitle: "Ждем ваши ",
@@ -782,12 +819,12 @@ export default {
 					messends: ["нам важно мнение каждого", "🤪😍😑"],
 					link: "",
 					subtitle2: false,
-					background: "#FFFFFF",
-				},
-			],
+					background: "#FFFFFF"
+				}
+			]
 		};
 	},
-	components: { headerSkider, cardList, cardItem, shareSlider, miniCard },
+	components: { headerSkider, cardList, cardItem, shareSlider, miniCard }
 };
 </script>
 <style scoped lang="scss">

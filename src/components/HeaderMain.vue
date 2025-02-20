@@ -2,30 +2,45 @@
 	<v-container>
 		<v-row class="d-none d-sm-flex align-center">
 			<v-col cols="3" md="3" class="text-body-2">
-				<v-icon color="blue-darken-2" size="large">mdi-send-variant-outline</v-icon>
-				Санкт-Питербург</v-col
+				<v-icon color="blue-darken-2" size="large"
+					>mdi-send-variant-outline</v-icon
+				>
+				Санкт-Петербург</v-col
 			>
 			<v-col cols="6" md="5" lg="4">
 				<v-list class="d-flex ma-0 pa-0 --hover">
-					<v-list-item class="text-subtitle-2 pa-0 justify-center" style="cursor: pointer"
+					<v-list-item
+						class="text-subtitle-2 pa-0 justify-center"
+						style="cursor: pointer"
 						>О нас</v-list-item
 					>
-					<v-list-item class="text-subtitle-2 pa-0 justify-center" style="cursor: pointer"
+					<v-list-item
+						class="text-subtitle-2 pa-0 justify-center"
+						style="cursor: pointer"
 						>Акции</v-list-item
 					>
-					<v-list-item class="text-subtitle-2 pa-0 justify-center" style="cursor: pointer"
+					<v-list-item
+						class="text-subtitle-2 pa-0 justify-center"
+						style="cursor: pointer"
 						>Контакты</v-list-item
 					>
-					<v-list-item class="text-subtitle-2 pa-0 justify-center" style="cursor: pointer"
+					<v-list-item
+						class="text-subtitle-2 pa-0 justify-center"
+						style="cursor: pointer"
 						>Вакансии</v-list-item
 					></v-list
 				>
 			</v-col>
 			<v-spacer></v-spacer>
-			<v-col offset-md="1" cols="3" md="2">+7 9*0 9*5 ** **</v-col>
+			<v-col offset-md="1" cols="3" md="2">+7 900 905 00 55</v-col>
 		</v-row>
 		<v-row class="d-flex align-center mt-0 justify-space-between">
-			<v-col cols="12" sm="4" md="3" class="d-flex justify-space-between d-sm-block">
+			<v-col
+				cols="12"
+				sm="4"
+				md="3"
+				class="d-flex justify-space-between d-sm-block"
+			>
 				<svg
 					width="190"
 					height="40"
@@ -53,7 +68,11 @@
 			</v-col>
 			<v-col cols="12" sm="4" md="6">
 				<v-row class="justify-center">
-					<v-col cols="2" md="3" class="d-none d-sm-flex justify-center align-center">
+					<v-col
+						cols="2"
+						md="3"
+						class="d-none d-sm-flex justify-center align-center"
+					>
 						<v-btn
 							color="#1BA2B1"
 							min-width="50px"
@@ -112,7 +131,10 @@
 					>
 						<v-list-item class="pa-1" v-for="el in listPages" :key="el.title">
 							<v-list-item-content>
-								<div class="d-flex align-start justify-center" style="max-width: 100%">
+								<div
+									class="d-flex align-start justify-center"
+									style="max-width: 100%"
+								>
 									<v-icon size="24"> {{ el.icon }}</v-icon>
 									<p
 										v-if="el.count"
@@ -141,7 +163,9 @@
 				</v-list-item>
 				<v-list-item class="pa-0 px-2 d-none d-sm-flex" style="cursor: pointer">
 					<v-list-item-content class="justify-center pa-3">
-						<v-row class="align-center justify-end text-subtitle-2 text-lg-subtitle-1">
+						<v-row
+							class="align-center justify-end text-subtitle-2 text-lg-subtitle-1"
+						>
 							<div class="mr-1 d-flex">
 								<svg
 									width="16"
@@ -168,7 +192,9 @@
 				</v-list-item>
 				<v-list-item class="pa-0 px-2 d-none d-sm-flex" style="cursor: pointer">
 					<v-list-item-content class="justify-center pa-3">
-						<v-row class="align-center justify-md-end text-subtitle-2 text-lg-subtitle-1">
+						<v-row
+							class="align-center justify-md-end text-subtitle-2 text-lg-subtitle-1"
+						>
 							<div class="mr-1 d-flex flex-nowrap">
 								<svg
 									width="22"
@@ -191,7 +217,9 @@
 				</v-list-item>
 				<v-list-item class="d-none d-md-flex pa-0 px-2" style="cursor: pointer">
 					<v-list-item-content class="justify-center pa-3">
-						<v-row class="align-center justify-end text-subtitle-2 text-lg-subtitle-1">
+						<v-row
+							class="align-center justify-end text-subtitle-2 text-lg-subtitle-1"
+						>
 							<div class="mr-1 d-flex">
 								<svg
 									width="22"
@@ -214,7 +242,9 @@
 				</v-list-item>
 				<v-list-item class="d-none d-lg-flex pa-0 px-2" style="cursor: pointer">
 					<v-list-item-content class="justify-center pa-3">
-						<v-row class="align-center justify-end text-subtitle-2 text-lg-subtitle-1">
+						<v-row
+							class="align-center justify-end text-subtitle-2 text-lg-subtitle-1"
+						>
 							<div class="mr-1 d-flex">
 								<svg
 									width="20"
@@ -261,26 +291,26 @@ export default {
 			listPages: [
 				{
 					title: "профиль",
-					icon: "mdi-account",
+					icon: "mdi-account"
 				},
 				{
 					title: "Сравнение",
 					icon: "mdi-chart-box-multiple-outline",
-					count: 1,
+					count: 1
 				},
 				{
 					title: "Избранное",
 					icon: "mdi-heart",
-					count: 12,
+					count: 12
 				},
 				{
 					title: "корзина",
-					icon: "mdi-account",
-				},
+					icon: "mdi-account"
+				}
 			],
-			model: 1,
+			model: 1
 		};
-	},
+	}
 };
 </script>
 
